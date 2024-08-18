@@ -59,6 +59,10 @@ header .navbar .menu {
     font-weight: 500;
 }
 
+.navbar .menu a:hover {
+    color: #5a97bf;
+}
+
 .text-content {
     width: 40%;
     margin: 100px 0 0 50px;
