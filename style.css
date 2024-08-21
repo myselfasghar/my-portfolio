@@ -286,3 +286,36 @@ header .heading {
     border-bottom: 4px solid #fff;
     padding: 60px 38px;
 }
+
+/** footer **/
+
+footer {
+    width: 100%;
+    background: #022a30;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    padding: 24px 48px;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .wrapper p {
+    font-size: 16px;
+    color: #b6cbce;
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+footer .wrapper .icon {
+    display: flex;
+    padding: 0 12px;
+}
+
+#icon {
+    margin: 0px 5px; 
+}
