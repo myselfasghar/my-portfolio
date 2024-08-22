@@ -45,7 +45,7 @@ header .navbar {
 header .navbar .head {
     font-size: 30px;
     font-weight: 500;
-    color: #fff;
+    color: #eef3db;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ header .navbar .menu {
 
 .navbar .menu a {
     text-decoration: none;
-    color: #fff;
+    color: #eef3db;
     font-size: 25px;
     font-weight: 500;
 }
@@ -72,19 +72,19 @@ header .navbar .menu {
 .text-content {
     width: 40%;
     margin: 100px 0 0 50px;
-    color: #fff;
+    color: #eef3db;
 }
 
 .text-content h4 {
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .text-content h2 {
     font-size: 45px;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .text-content h3 {
@@ -114,7 +114,7 @@ h3 .text {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #eef3db;
     line-height: 43px;
     margin: 14px 5px;
     transition: all 0.3s ease;
@@ -195,15 +195,21 @@ header .heading {
 }
 
 .topic1 {
-    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-size: 30px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     margin-bottom: 8px;
-    padding: 24px;
+    background: #ffff00;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .introduction p {
-    color: #fff;
+    color: #eef3db;
     font-size: 18px;
     padding: 0 20px;
     line-height: 1.3;
@@ -240,7 +246,7 @@ header .heading {
 .topic2 {
     font-size: 40px;
     font-weight: 600;
-    color: #fff;
+    color: #eef3db;
     margin-bottom: 8px;
     padding: 24px;
 }
@@ -285,6 +291,85 @@ header .heading {
     position: relative;
     border-bottom: 4px solid #fff;
     padding: 60px 38px;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.container h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #eef3db;
+    line-height: 1.4;
+}
+
+.container .input-box {
+    height: 50px;
+    width: 600px;
+    margin: 12px 0;
+}
+
+.container .input-box input::placeholder,
+.container .input-box textarea::placeholder {
+    color: #b6cbce;
+}
+
+.container .input-box input:focus,
+.container .input-box textarea:focus {
+    border: 1px solid #ffff00;
+    outline: none;
+}
+
+
+.container .input-box input,
+.container .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background: #057786;
+    color: #b6cbce;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+
+.container .input-box textarea {
+    padding-top: 10px;
+}
+
+.container .message-box {
+    min-height: 110px;
+}
+
+.container .button {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.container .button input[type="button"] {
+    color: #000;
+    width: 600px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: #ffff00;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input[type="button"]:hover {
+    background: #5a5a03fe;
+    color: rgb(11, 128, 154);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 /** footer **/
