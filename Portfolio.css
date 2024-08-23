@@ -306,6 +306,40 @@ header .heading {
     padding: 60px 38px;
 }
 
+.tools, .techs {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tools {
+    margin-bottom: 38px;
+}
+
+.tool-box, .tech-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.tool, .tech {
+    border: 4px solid #ffff00;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool img, .tech img  {
+    width: 200px;
+    height: auto;
+}
+
 /** experience section **/
 
 #experience {
@@ -394,7 +428,7 @@ header .heading {
     margin-top: 6px;
 }
 
-.container .button input[type="button"] {
+.container .button input[type="submit"] {
     color: #000;
     width: 600px;
     font-size: 18px;
@@ -407,7 +441,7 @@ header .heading {
     transition: all 0.3s ease;
 }
 
-.button input[type="button"]:hover {
+.button input[type="submit"]:hover {
     background: #5a5a03fe;
     color: rgb(11, 128, 154);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
