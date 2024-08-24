@@ -393,13 +393,71 @@ header .heading {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 600px;
+    width: 500px;
     text-align: center;
+    overflow: hidden;
+}
+
+.project-box .image {
+    overflow: hidden;
+    border-radius: inherit;
 }
 
 .project-box .image img {
-    max-width: 100%;
-    border-radius: 10px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: inherit;
+    object-fit: cover;
+}
+
+.project-box .info {
+    background: #057786;
+    text-align: left;
+    padding: 16px;
+    overflow: hidden;
+    border-radius: 0 0 7px 7px;
+}
+
+.info .project-name {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.info .project-info {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.info .project-skill {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-skill .skill {
+    font-size: 16px;
+    color: #ffff00;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 5px 10px;
+}
+
+.project-skill .link {
+    font-size: 30px;
+    margin: 0 8px;
+}
+
+.link a i {
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+.link a i:hover {
+    color: #ffff00;
 }
 
 /** contact section **/
