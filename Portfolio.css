@@ -52,15 +52,15 @@ header .navbar .menu {
     margin: 0 10px;
 }
 
-.navbar .menu a {
+.nav-link {
     text-decoration: none;
     color: #eef3db;
     font-size: 26px;
     font-weight: 500;
 }
 
-.navbar .menu a:hover {
-    color: #ffff00;
+.nav-link:hover {
+    color: yellow;
 }
 
 /** home section **/
