@@ -148,6 +148,11 @@ h3 .text {
     background: #fff;
 }
 
+.icons a:nth-child(4) i:hover {
+    color: #000;
+    background: #fff;
+}
+
 button {
     padding: 12px 28px;
     font-size: 16px;
