@@ -44,7 +44,7 @@ header .navbar .head {
 
 header .navbar .menu {
     display: flex;
-    gap: 15px;
+    gap: 10px;
 }
 
 .navbar .menu li {
@@ -55,12 +55,17 @@ header .navbar .menu {
 .nav-link {
     text-decoration: none;
     color: #eef3db;
+    background: none;
+    padding: 5px 13px;
+    border-radius: 15px;
     font-size: 26px;
     font-weight: 500;
+    transition: all 0.3s ease;
 }
 
 .nav-link:hover {
-    color: yellow;
+    color: black;
+    background: yellow;
 }
 
 /** home section **/
