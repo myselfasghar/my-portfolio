@@ -56,8 +56,8 @@ header .navbar .menu {
     text-decoration: none;
     color: #eef3db;
     background: none;
-    padding: 5px 13px;
-    border-radius: 15px;
+    padding: 5px 15px;
+    border-radius: 20px;
     font-size: 26px;
     font-weight: 500;
     transition: all 0.3s ease;
