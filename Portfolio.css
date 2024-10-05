@@ -56,7 +56,7 @@ header .navbar .menu {
     text-decoration: none;
     color: #eef3db;
     background: none;
-    padding: 5px 15px;
+    padding: 5px 20px;
     border-radius: 20px;
     font-size: 26px;
     font-weight: 500;
@@ -365,6 +365,11 @@ section .heading {
     gap: 50px;
 }
 
+.tech-box {
+    flex-wrap: wrap;
+    width: 844px;
+}
+
 .tool, .tech {
     border: 4px solid #057786;
     background: #fff;
@@ -392,7 +397,7 @@ section .heading {
 }
 
 .name {
-    width: 50%;
+    min-width: 50%;
     font-size: 17px;
     font-weight: 600;
     background: #057786;
@@ -541,7 +546,7 @@ section .heading {
 
 .container .input-box {
     height: 50px;
-    width: 600px;
+    width: 700px;
     margin: 12px 0;
 }
 
@@ -565,7 +570,7 @@ section .heading {
     font-size: 16px;
     background: #057786;
     color: #b6cbce;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 0 15px;
     resize: none;
 }
@@ -585,12 +590,12 @@ section .heading {
 
 .container .button input[type="submit"] {
     color: #000;
-    width: 600px;
+    width: 700px;
     font-size: 18px;
     outline: none;
     border: none;
     padding: 8px 16px;
-    border-radius: 6px;
+    border-radius: 10px;
     background: #ffff00;
     cursor: pointer;
     transition: all 0.3s ease;
