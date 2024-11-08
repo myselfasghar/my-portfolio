@@ -110,8 +110,8 @@ section .content {
 }
 
 h3 .text {
-    color : #ffff00;
-} 
+    color: #ffff00;
+}
 
 .text-content p {
     margin-top: 10px;
@@ -343,7 +343,8 @@ section .heading {
     scroll-margin-top: 120px;
 }
 
-.tools, .techs {
+.tools,
+.techs {
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -359,7 +360,8 @@ section .heading {
     margin-bottom: 38px;
 }
 
-.tool-box, .tech-box {
+.tool-box,
+.tech-box {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -370,7 +372,8 @@ section .heading {
     width: 844px;
 }
 
-.tool, .tech {
+.tool,
+.tech {
     border: 4px solid #057786;
     background: #fff;
     padding: 20px;
@@ -383,13 +386,15 @@ section .heading {
     text-align: center;
 }
 
-.tool:hover, .tech:hover {
+.tool:hover,
+.tech:hover {
     background-color: #f0f0f0;
     transform: scale(1.05);
-    transition: transform 0.2s, background-color 0.2s; 
+    transition: transform 0.2s, background-color 0.2s;
 }
 
-.tool img, .tech img  {
+.tool img,
+.tech img {
     width: 200px;
     height: auto;
     display: block;
@@ -637,5 +642,5 @@ footer .wrapper .icon {
 }
 
 #icon {
-    margin: 0px 5px; 
+    margin: 0px 5px;
 }
