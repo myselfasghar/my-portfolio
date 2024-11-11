@@ -84,6 +84,9 @@ header .navbar .menu {
 section .content {
     padding: 20px;
     margin: -20px 30px 50px 30px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .text-content {
@@ -175,6 +178,17 @@ button:hover {
     background: #5a5a03fe;
     color: rgb(11, 128, 154);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.content-image {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.content-img-wrap img {
+    width: 400px;
+    height: 400px;
 }
 
 /** about section **/
