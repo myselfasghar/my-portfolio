@@ -258,45 +258,6 @@ section .heading {
     text-transform: uppercase;
 }
 
-.introduction {
-    margin: 40px 0;
-    min-height: 200px;
-    width: 80%;
-    padding: 25px 20px;
-    border-radius: 10px;
-    background: #057786;
-}
-
-#intro {
-    margin: 0px;
-}
-
-.introduction ul {
-    padding-left: 25px;
-}
-
-.introduction li {
-    padding: 5px 10px;
-    list-style: none;
-    position: relative;
-}
-
-.introduction li::before {
-    content: "•";
-    color: #ffff00;
-    position: absolute;
-    left: -20px;
-    top: -1px;
-    font-size: 1.5em;
-}
-
-.introduction p {
-    color: #eef3db;
-    font-size: 20px;
-    line-height: 1.4;
-    letter-spacing: 1px;
-}
-
 .education {
     display: flex;
     flex-direction: column;
@@ -319,6 +280,10 @@ section .heading {
     background: #057786;
     border-radius: 10px;
     padding: 24px;
+}
+
+#box1 {
+    margin-top: 10px;
 }
 
 .box-wrap:hover {
@@ -482,7 +447,7 @@ section .heading {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    width: 500px;
+    width: 550px;
     overflow: hidden;
 }
 
@@ -660,11 +625,16 @@ footer .wrapper {
     justify-content: space-between;
 }
 
+.wrapper .footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer .wrapper p {
     font-size: 16px;
     color: #b6cbce;
-    margin-bottom: 16px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 footer .wrapper .icon {
