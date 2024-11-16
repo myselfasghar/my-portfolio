@@ -98,7 +98,7 @@ section .content {
 
 .text-content {
     width: 55%;
-    margin: 30px 0 0 65px;
+    margin: 0 0 0 65px;
     color: #eef3db;
 }
 
@@ -169,6 +169,7 @@ h3 .text {
 }
 
 button {
+    cursor: pointer;
     padding: 12px 28px;
     font-size: 16px;
     font-weight: 600;
@@ -191,6 +192,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: animate 1s ease-in-out forwards;
 }
 
 .content-img-wrap img {
@@ -298,6 +300,7 @@ section .heading {
     background: #057786;
     border-radius: 10px;
     padding: 24px;
+    user-select: none;
 }
 
 #box1 {
@@ -419,6 +422,7 @@ section .heading {
     color: #eef3db;
     border-radius: 10px;
     padding: 8px 12px;
+    user-select: none;
 }
 
 .name:hover {
@@ -454,6 +458,7 @@ section .heading {
 }
 
 .project-box-wrap {
+    user-select: none;
     border-left: 5px solid transparent;
     border-bottom: 5px solid transparent;
     border-radius: 10px;
@@ -672,6 +677,7 @@ footer .wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
 }
 
 footer .wrapper p {
