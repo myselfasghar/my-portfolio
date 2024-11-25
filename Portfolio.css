@@ -92,6 +92,7 @@ header .navbar .menu {
 
 .main-content {
     animation: animate 1s ease-in-out forwards;
+    min-width: 650px;
 }
 
 section .content {
@@ -705,7 +706,48 @@ footer .wrapper .icon {
 
 /* Responsiveness */
 
-@media (max-width: 990px) {
+@media (max-width: 1150px) {
+
+    .content-img-wrap img {
+        width: 500px;
+        height: auto;
+    }
+
+    .main-content {
+        min-width: 600px;
+    }
+
+    .text-content h4 {
+        font-size: 20px;
+    }
+
+    .text-content h2 {
+        font-size: 40px;
+    }
+
+    .text-content h3 {
+        font-size: 23px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+
+    .icons i {
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+        font-size: 15px;
+        margin: 9px 5px;
+    }
+}
+
+@media (max-width: 1100px) {
 
     .menu-btn {
         display: block;
@@ -727,6 +769,7 @@ footer .wrapper .icon {
 
     .menu.active {
         right: 0;
+        transition: all 0.5s ease;
     }
 
     .nav-link {
