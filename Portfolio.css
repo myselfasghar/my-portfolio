@@ -17,6 +17,11 @@ body {
     padding: 0;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 /** navbar **/
 
 header {
@@ -102,7 +107,6 @@ section .content {
     align-items: center;
     flex-direction: row;
     width: 100%;
-    margin: 0 auto;
 }
 
 .text-content {
@@ -709,40 +713,41 @@ footer .wrapper .icon {
 @media (max-width: 1150px) {
 
     .content-img-wrap img {
-        width: 500px;
+        max-width: 500px;
         height: auto;
+        margin: 0;
     }
 
     .main-content {
-        min-width: 600px;
+        max-width: 100%;
     }
 
     .text-content h4 {
-        font-size: 20px;
-    }
-
-    .text-content h2 {
-        font-size: 40px;
-    }
-
-    .text-content h3 {
         font-size: 23px;
     }
 
+    .text-content h2 {
+        font-size: 43px;
+    }
+
+    .text-content h3 {
+        font-size: 26px;
+    }
+
     .text-content p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     button {
-        font-size: 12px;
-        padding: 8px 20px;
+        font-size: 15px;
+        padding: 10px 20px;
     }
 
     .icons i {
-        height: 35px;
-        width: 35px;
-        line-height: 33px;
-        font-size: 15px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 18px;
         margin: 9px 5px;
     }
 }
@@ -781,5 +786,72 @@ footer .wrapper .icon {
     .nav-link:last-child {
         margin: 0;
     }
+}
+
+@media (max-width: 1070px) {
+
+    /* .main-content {
+        min-width: 500px;
+    } */
+}
+
+@media (max-width: 960px) {
+
+    /* .main-content {
+        min-width: 450px;
+    }
+
+    .content-img-wrap img {
+        width: 450px;
+        height: auto;
+    } */
+}
+
+@media (max-width: 870px) {
+
+    /* .content-img-wrap img {
+        width: 430px;
+        height: auto;
+    }
+
+    .main-content {
+        min-width: 400px;
+    }
+
+    .text-content {
+        min-width: 360px;
+    } */
+
+    .text-content h4 {
+        font-size: 21px;
+    }
+
+    .text-content h2 {
+        font-size: 41px;
+    }
+
+    .text-content h3 {
+        font-size: 24px;
+    }
+
+    .text-content p {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 13px;
+        padding: 9px 20px;
+    }
+
+    .icons i {
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+        font-size: 15px;
+        margin: 9px 5px;
+    }
+}
+
+@media (max-width: 800px) {
 
 }
