@@ -1155,11 +1155,6 @@ footer .wrapper .icon {
         width: 450px;
     }
 
-    .tool img,
-    .tech img {
-        width: 75px;
-    }
-
     .name {
         margin-top: 5px;
         font-size: 8px;
@@ -1193,7 +1188,7 @@ footer .wrapper .icon {
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 460px) {
 
     /* skills section */
 
@@ -1235,5 +1230,14 @@ footer .wrapper .icon {
     .topic2,
     .wrap .topic1 {
         width: 55%;
+    }
+}
+
+@media (max-width: 345px) {
+
+    /* skills section */
+
+    .tool-box {
+        width: 345px;
     }
 }
