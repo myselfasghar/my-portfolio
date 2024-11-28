@@ -712,6 +712,8 @@ footer .wrapper .icon {
 
 @media (max-width: 1280px) {
 
+    /* home section */
+
     .main-content {
         min-width: 600px;
     }
@@ -743,6 +745,8 @@ footer .wrapper .icon {
 }
 
 @media (max-width: 1150px) {
+
+    /* home section */
 
     .content-img-wrap img {
         width: 550px;
@@ -790,6 +794,8 @@ footer .wrapper .icon {
 
 @media (max-width: 1100px) {
 
+    /* home section */
+
     .menu-btn {
         display: block;
     }
@@ -826,11 +832,17 @@ footer .wrapper .icon {
 
 @media (max-width: 1070px) {
 
+    /* home section */
+
     .main-content {
         min-width: 500px;
     }
 
     /* about section */
+
+    #about {
+        min-height: 50vh;
+    }
 
     section .heading {
         margin-bottom: 0;
@@ -840,10 +852,13 @@ footer .wrapper .icon {
         font-size: 17px;
         height: 35px;
         line-height: 35px;
+        width: 70%;
     }
 
-    .topic2 {
+    .topic2,
+    .wrap .topic1 {
         font-size: 28px;
+        width: 40%;
     }
 
     .box-wrap {
@@ -864,6 +879,8 @@ footer .wrapper .icon {
 
 @media (max-width: 960px) {
 
+    /* home section */
+
     .main-content {
         min-width: 450px;
     }
@@ -877,18 +894,41 @@ footer .wrapper .icon {
 
     #about {
         padding: 40px 35px;
-        max-width: 100vh;
     }
 
-    .topic2 {
+    .topic2,
+    .wrap .topic1 {
         font-size: 23px;
         min-height: 30px;
         line-height: 30px;
         padding: 3px 0;
     }
+
+    /* skills section */
+
+    #skills {
+        min-height: 80vh;
+    }
+
+    .tool-box,
+    .tech-box {
+        gap: 40px;
+    }
+
+    .tool img,
+    .tech img {
+        width: 170px;
+    }
+
+    .name {
+        font-size: 15px;
+        padding: 6px 10px;
+    }
 }
 
 @media (max-width: 870px) {
+
+    /* home section */
 
     .content-img-wrap img {
         width: 430px;
@@ -934,13 +974,18 @@ footer .wrapper .icon {
 
     /* about section */
 
+    #about {
+        min-height: 50vh;
+    }
+
     .heading .title {
         font-size: 15px;
         height: 30px;
         line-height: 30px;
     }
 
-    .topic2 {
+    .topic2,
+    .wrap .topic1 {
         font-size: 21px;
     }
 
@@ -965,6 +1010,8 @@ footer .wrapper .icon {
 
 @media (max-width: 800px) {
 
+    /* home section */
+
     .content-img-wrap img {
         width: 400px;
         height: auto;
@@ -988,12 +1035,30 @@ footer .wrapper .icon {
 
     /* about section */
 
+    #about {
+        min-height: 50vh;
+    }
+
     #box1 {
         height: 110px;
+    }
+
+    /* skills section */
+
+    .tool img,
+    .tech img {
+        width: 140px;
+    }
+
+    .name {
+        font-size: 13px;
+        padding: 6px 10px;
     }
 }
 
 @media (max-width: 730px) {
+
+    /* home section */
 
     section .content {
         display: block;
@@ -1004,14 +1069,59 @@ footer .wrapper .icon {
     .box-wrap {
         height: 130px;
     }
+
+    /* skills section */
+
+    #skills {
+        padding: 40px 30px;
+    }
+
+    .tech-box {
+        width: 600px;
+    }
+
+    .tool img,
+    .tech img {
+        width: 110px;
+    }
+
+    .name {
+        margin-top: 10px;
+        font-size: 11px;
+        padding: 4px 8px;
+    }
 }
 
 @media (max-width: 630px) {
 
     /* about section */
 
-    .topic2 {
+    .topic2,
+    .wrap .topic1 {
         font-size: 18px;
+    }
+
+
+    /* skills section */
+
+    .tool-box,
+    .tech-box {
+        gap: 30px;
+    }
+
+    .tool,
+    .tech {
+        padding-bottom: 15px;
+    }
+
+    .tool img,
+    .tech img {
+        width: 80px;
+    }
+
+    .name {
+        font-size: 9px;
+        padding: 6px 10px;
     }
 }
 
@@ -1019,18 +1129,47 @@ footer .wrapper .icon {
 
     /* about section */
 
-    .topic2 {
+    #about {
+        min-height: 70vh;
+    }
+
+    .topic2,
+    .wrap .topic1 {
         font-size: 15px;
         min-height: 25px;
         line-height: 25px;
+        width: 45%;
     }
 
     #box1 {
         height: 130px;
     }
+
+    .heading .title {
+        width: 80%;
+    }
+
+    /* skills section */
+
+    .tech-box {
+        width: 450px;
+    }
+
+    .tool img,
+    .tech img {
+        width: 75px;
+    }
+
+    .name {
+        margin-top: 5px;
+        font-size: 8px;
+        padding: 6px 10px;
+    }
 }
 
 @media (max-width: 480px) {
+
+    /* home section */
 
     header .navbar {
         padding: 30px 40px;
@@ -1054,7 +1193,22 @@ footer .wrapper .icon {
     }
 }
 
+@media (max-width: 440px) {
+
+    /* skills section */
+
+    .tool-box {
+        flex-wrap: wrap;
+    }
+
+    .tech-box {
+        width: 350px;
+    }
+}
+
 @media (max-width: 400px) {
+
+    /* home section */
 
     section .content {
         padding: 0;
@@ -1062,5 +1216,24 @@ footer .wrapper .icon {
 
     header .navbar {
         padding: 30px 15px;
+    }
+
+    /* about section */
+
+    #about {
+        min-height: 50vh;
+    }
+
+    .box-wrap {
+        height: 160px;
+    }
+
+    .heading .title {
+        width: 100%;
+    }
+
+    .topic2,
+    .wrap .topic1 {
+        width: 55%;
     }
 }
