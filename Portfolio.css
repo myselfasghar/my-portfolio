@@ -529,6 +529,7 @@ section .heading {
 .info .project-skill {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .project-skill .skill {
@@ -543,7 +544,7 @@ section .heading {
 
 .project-skill .link {
     font-size: 30px;
-    margin: 0 8px;
+    margin: 0 8px 5px;
 }
 
 .link a i {
@@ -926,8 +927,9 @@ footer .wrapper .icon {
         padding: 30px 10px 0 0;
     }
 
-    .experience-box #box1 {
-        height: 170px;
+    .experience-box #box1,
+    .experience-box .box {
+        height: 160px;
         width: 100%;
     }
 }
@@ -1216,8 +1218,9 @@ footer .wrapper .icon {
 
     /* experience section */
 
-    .experience-box #box1 {
-        height: 170px;
+    .experience-box #box1,
+    .experience-box .box {
+        height: 150px;
         width: 100%;
     }
 
@@ -1603,9 +1606,102 @@ footer .wrapper .icon {
 
 @media (max-width: 345px) {
 
+    /* home section */
+
+    header .navbar .head {
+        font-size: 25px;
+    }
+
+    .menu-btn {
+        font-size: 25px;
+    }
+
+    .main-content {
+        min-width: 300px;
+    }
+
+    .text-content h4 {
+        font-size: 15px;
+    }
+
+    .text-content h2 {
+        font-size: 25px;
+    }
+
+    .text-content h3 {
+        font-size: 20px;
+    }
+
+    .text-content p {
+        font-size: 13px;
+        width: 300px;
+    }
+
+    button {
+        font-size: 10px;
+        padding: 9px 18px;
+    }
+
+    .icons i {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 13px;
+        margin: 9px 5px;
+    }
+
     /* skills section */
 
     .tool-box {
         width: 345px;
+    }
+
+    /* experience section */
+
+    .experience-box .box {
+        padding-top: 20px;
+    }
+
+    .project-box {
+        width: 270px;
+    }
+
+    .info .project-name {
+        font-size: 13px;
+    }
+
+    .info .project-info {
+        margin-top: 5px;
+        font-size: 10px;
+    }
+
+    .info .project-skill {
+        margin-top: -5px;
+    }
+
+    .project-skill .skill {
+        font-size: 8px;
+    }
+
+    .project-skill .link {
+        font-size: 17px;
+    }
+
+    /* contact section */
+
+    .container h1 {
+        font-size: 15px;
+        width: 280px;
+    }
+
+    .container .input-box,
+    .container .button input[type="submit"] {
+        width: 280px;
+    }
+
+    /* footer */
+
+    footer .wrapper p {
+        font-size: 12px;
     }
 }
