@@ -723,6 +723,10 @@ footer .wrapper .icon {
 
     /* home section */
 
+    #home {
+        min-height: 40vh;
+    }
+
     .main-content {
         min-width: 600px;
     }
@@ -1527,7 +1531,7 @@ footer .wrapper .icon {
     }
 
     header .navbar {
-        padding: 30px 15px;
+        padding: 25px 15px;
     }
 
     /* about section */
