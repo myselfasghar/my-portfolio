@@ -842,7 +842,7 @@ footer .wrapper .icon {
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 300px;
+        width: 40vh;
         min-height: 300px;
         background: #046d78;
         display: flex;
@@ -850,6 +850,7 @@ footer .wrapper .icon {
         flex-direction: column;
         padding: 40px 20px;
         border-radius: 10px;
+        transition: all 0.5s ease;
     }
 
     .menu.active {
@@ -1477,6 +1478,14 @@ footer .wrapper .icon {
     .container .button input[type="submit"] {
         width: 400px;
     }
+
+    #home,
+    #about,
+    #skills,
+    #experience,
+    #contact {
+        scroll-margin-top: 98px;
+    }
 }
 
 @media (max-width: 460px) {
@@ -1522,6 +1531,16 @@ footer .wrapper .icon {
     .container .input-box,
     .container .button input[type="submit"] {
         width: 350px;
+    }
+
+    /* all */
+
+    #home,
+    #about,
+    #skills,
+    #experience,
+    #contact {
+        border-bottom: 2px solid #eef3db;
     }
 }
 
