@@ -34,6 +34,3 @@ sr.reveal('.project-box-wrap', { delay: 200, origin: 'left' });
 
 // contact section
 sr.reveal('.container', { delay: 200, origin: 'left' });
-
-// footer
-sr.reveal('.wrapper', { delay: 200, origin: 'left', viewFactor: 0.2 });
