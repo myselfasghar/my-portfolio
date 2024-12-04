@@ -8,29 +8,27 @@ document.querySelector('.menu-btn').addEventListener('click', function () {
 
 const sr = ScrollReveal({
     distance: '65px',
-    duration: 2000,
-    delay: 250,
+    duration: 1500,
+    delay: 200,
     reset: false
 });
 
 // home section
-sr.reveal('.main-content', { delay: 100, origin: 'top' });
-sr.reveal('.content-image', { delay: 100, origin: 'top' });
+sr.reveal('.main-content', { delay: 50, origin: 'top' });
+sr.reveal('.content-image', { delay: 50, origin: 'top' });
 
 // about section
-sr.reveal('.title', { delay: 100, origin: 'top' });
-sr.reveal('.box-wrap', { delay: 100, origin: 'left' });
-sr.reveal('.box-wrap', { delay: 100, origin: 'left' });
-sr.reveal('.box-wrap', { delay: 100, origin: 'left' });
+sr.reveal('.title', { delay: 50, origin: 'top' });
+sr.reveal('.box-wrap', { delay: 50, origin: 'left' });
 
 // skills section
-sr.reveal('.topic1', { delay: 100, origin: 'right' });
-sr.reveal('.tool', { delay: 100, origin: 'left' });
-sr.reveal('.topic2', { delay: 100, origin: 'right' });
-sr.reveal('.tech', { delay: 100, origin: 'left' });
+sr.reveal('.topic1', { delay: 50, origin: 'right' });
+sr.reveal('.tool', { delay: 50, origin: 'left' });
+sr.reveal('.topic2', { delay: 50, origin: 'right' });
+sr.reveal('.tech', { delay: 50, origin: 'left' });
 
 // projects section
-sr.reveal('.project-box-wrap', { delay: 100, origin: 'left' });
+sr.reveal('.project-box-wrap', { delay: 50, origin: 'left' });
 
 // contact section
-sr.reveal('.container', { delay: 100, origin: 'left' });
+sr.reveal('.container', { delay: 50, origin: 'left' });
