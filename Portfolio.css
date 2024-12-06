@@ -1203,8 +1203,7 @@ footer .wrapper .icon {
 
     /* experience section */
 
-    .experience-box #box1,
-    .experience-box .box {
+    .experience-box #box1 {
         height: 150px;
         width: 100%;
     }
