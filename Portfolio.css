@@ -826,14 +826,14 @@ footer .wrapper .icon {
         position: absolute;
         top: 100%;
         right: -100%;
-        width: 40vh;
-        min-height: 300px;
+        width: 260px;
+        min-height: 260px;
         background: #046d78;
         display: flex;
         align-items: center;
         flex-direction: column;
-        padding: 40px 20px;
-        border-radius: 10px;
+        padding: 30px 20px;
+        border-radius: 15px;
         transition: all 0.5s ease;
     }
 
@@ -842,10 +842,22 @@ footer .wrapper .icon {
         transition: all 0.5s ease;
     }
 
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+
     .nav-link {
         font-size: 17px;
         margin-bottom: 8px;
         display: block;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #eef3db;
+    }
+
+    .nav-link:hover {
+        border: 1px solid #ffff00;
     }
 
     .nav-link:last-child {
@@ -1647,7 +1659,7 @@ footer .wrapper .icon {
     .icons i {
         height: 30px;
         width: 30px;
-        line-height: 30px;
+        line-height: 28px;
         font-size: 13px;
         margin: 9px 5px;
     }
