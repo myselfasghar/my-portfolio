@@ -578,7 +578,7 @@ section .heading {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 80px;
 }
 
 .container h1 {
@@ -686,6 +686,16 @@ footer .wrapper .icon {
 
     .projects {
         gap: 30px;
+    }
+
+    /* contact section */
+
+    #contact {
+        min-height: 55vh;
+    }
+
+    .container {
+        margin-top: 50px;
     }
 }
 
@@ -864,6 +874,16 @@ footer .wrapper .icon {
         height: 160px;
         width: 100%;
     }
+
+    /* contact section */
+
+    #contact {
+        min-height: 40vh;
+    }
+
+    .container {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 1017px) {
@@ -1033,6 +1053,12 @@ footer .wrapper .icon {
     .experience-box #box1 h6 {
         font-size: 15px;
     }
+
+    /* contact section */
+
+    #contact {
+        min-height: 45vh;
+    }
 }
 
 @media (max-width: 800px) {
@@ -1085,11 +1111,11 @@ footer .wrapper .icon {
     /* contact section */
 
     #contact {
-        min-height: 60vh;
+        min-height: 70vh;
     }
 
     .container {
-        margin-top: 70px;
+        margin-top: 55px;
     }
 
     .container h1 {
@@ -1120,6 +1146,12 @@ footer .wrapper .icon {
 
     .experience-box #box1 h6 {
         font-size: 14px;
+    }
+
+    /* contact section */
+
+    #contact {
+        min-height: 45vh;
     }
 }
 
@@ -1173,19 +1205,21 @@ footer .wrapper .icon {
     /* contact section */
 
     #contact {
-        min-height: 55vh;
+        min-height: 65vh;
     }
 
     .container {
-        margin-top: 60px;
+        margin-top: 50px;
     }
 
     .container h1 {
         font-size: 30px;
+        margin-bottom: 15px;
     }
 
     .container p {
         font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .mail i {
@@ -1309,12 +1343,20 @@ footer .wrapper .icon {
 
     /* contact section */
 
+    #contact {
+        min-height: 55vh;
+    }
+
+    .container {
+        margin-top: 30px;
+    }
+
     .container h1 {
         font-size: 26px;
     }
 
     .container p {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .mail i {
@@ -1339,6 +1381,16 @@ footer .wrapper .icon {
 
     #icon {
         display: none;
+    }
+
+    /* contact section */
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .container p {
+        font-size: 14px;
     }
 }
 
@@ -1382,6 +1434,19 @@ footer .wrapper .icon {
 
     .project-box {
         width: 400px;
+    }
+}
+
+@media (max-width: 490px) {
+
+    /* contact section */
+
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .mail i {
+        font-size: 26px;
     }
 }
 
@@ -1460,6 +1525,12 @@ footer .wrapper .icon {
 
     .project-skill .link {
         font-size: 25px;
+    }
+
+    /* contact section */
+
+    .container {
+        margin-top: 30px;
     }
 
     /* all */
