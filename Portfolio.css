@@ -560,7 +560,7 @@ section .heading {
 /** contact section **/
 
 #contact {
-    min-height: 80vh;
+    min-height: 70vh;
     width: 100%;
     background: #022a30;
     margin: 0;
@@ -568,7 +568,7 @@ section .heading {
     box-sizing: border-box;
     position: relative;
     border-bottom: 3px solid #eef3db;
-    padding: 60px 38px;
+    padding: 60px 30px 40px;
     scroll-margin-top: 120px;
 }
 
@@ -578,7 +578,7 @@ section .heading {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 25px;
+    margin-top: 90px;
 }
 
 .container h1 {
@@ -588,72 +588,20 @@ section .heading {
     line-height: 1.4;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
+.container p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #eef3db;
 }
 
-.container .input-box {
-    height: 50px;
-    width: 700px;
-}
-
-.container .input-box input::placeholder,
-.container .input-box textarea::placeholder {
-    color: #b6cbce;
-}
-
-.container .input-box input:focus,
-.container .input-box textarea:focus {
-    border: 1px solid #ffff00;
-    outline: none;
-}
-
-.container .input-box input,
-.container .input-box textarea {
-    height: 100%;
-    width: 100%;
-    border: none;
-    font-size: 16px;
-    background: #057786;
-    color: #fff;
-    border-radius: 10px;
-    padding: 0 15px;
-    resize: none;
-}
-
-.container .input-box textarea {
-    padding-top: 10px;
-}
-
-.container .message-box {
-    min-height: 110px;
-}
-
-.container .button {
-    display: inline-block;
-}
-
-.container .button input[type="submit"] {
-    color: #000;
-    width: 700px;
-    font-size: 18px;
-    outline: none;
-    border: none;
-    padding: 8px 16px;
-    border-radius: 10px;
-    background: #ffff00;
-    cursor: pointer;
+.mail i {
+    font-size: 40px;
+    color: #eef3db;
     transition: all 0.3s ease;
 }
 
-.button input[type="submit"]:hover {
-    background: #5a5a03fe;
-    color: rgb(11, 128, 154);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+.mail i:hover {
+    transform: scale(1.15);
 }
 
 /** footer **/
@@ -855,12 +803,6 @@ footer .wrapper .icon {
 
     .nav-link:last-child {
         margin: 0;
-    }
-
-    /* contact section */
-
-    #contact {
-        min-height: 50vh;
     }
 }
 
@@ -1142,13 +1084,24 @@ footer .wrapper .icon {
 
     /* contact section */
 
+    #contact {
+        min-height: 60vh;
+    }
+
+    .container {
+        margin-top: 70px;
+    }
+
     .container h1 {
         font-size: 35px;
     }
 
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 600px;
+    .container p {
+        font-size: 18px;
+    }
+
+    .mail i {
+        font-size: 35px;
     }
 }
 
@@ -1213,25 +1166,30 @@ footer .wrapper .icon {
         height: 150px;
         width: 100%;
     }
+}
+
+@media (max-width: 700px) {
 
     /* contact section */
+
+    #contact {
+        min-height: 55vh;
+    }
+
+    .container {
+        margin-top: 60px;
+    }
 
     .container h1 {
         font-size: 30px;
     }
 
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 550px;
-    }
-
-    .container .button input[type="submit"] {
+    .container p {
         font-size: 16px;
     }
 
-    .container .input-box input,
-    .container .input-box textarea {
-        font-size: 15px;
+    .mail i {
+        font-size: 30px;
     }
 }
 
@@ -1249,20 +1207,6 @@ footer .wrapper .icon {
 
     .icon {
         margin: 0;
-    }
-}
-
-@media (max-width: 640px) {
-
-    /* contact section */
-
-    .container h1 {
-        font-size: 25px;
-    }
-
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 500px;
     }
 }
 
@@ -1334,7 +1278,7 @@ footer .wrapper .icon {
     }
 }
 
-@media (max-width: 590px) {
+@media (max-width: 600px) {
 
     /* project section */
 
@@ -1345,27 +1289,36 @@ footer .wrapper .icon {
     .project-box {
         width: 450px;
     }
-}
-
-@media (max-width: 550px) {
 
     /* contact section */
 
-    #contact {
-        padding: 40px 30px;
+    .container h1 {
+        font-size: 28px;
     }
+
+    .container p {
+        font-size: 16px;
+    }
+
+    .mail i {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 560px) {
+
+    /* contact section */
 
     .container h1 {
-        font-size: 20px;
+        font-size: 26px;
     }
 
-    .container .input-box {
-        height: 40px;
+    .container p {
+        font-size: 16px;
     }
 
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 450px;
+    .mail i {
+        font-size: 28px;
     }
 }
 
@@ -1459,14 +1412,11 @@ footer .wrapper .icon {
 
     /* contact section */
 
-    .container h1 {
-        width: 350px;
+    .container {
+        margin-top: 40px;
     }
 
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 400px;
-    }
+    /* all */
 
     #home,
     #about,
@@ -1510,17 +1460,6 @@ footer .wrapper .icon {
 
     .project-skill .link {
         font-size: 25px;
-    }
-
-    /* contact section */
-
-    .container h1 {
-        font-size: 18px;
-    }
-
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 350px;
     }
 
     /* all */
@@ -1588,6 +1527,12 @@ footer .wrapper .icon {
     .project-skill .link {
         font-size: 22px;
     }
+
+    /* contact section */
+
+    .container {
+        margin-top: 30px;
+    }
 }
 
 @media (max-width: 380px) {
@@ -1598,18 +1543,6 @@ footer .wrapper .icon {
     .experience-box .box {
         height: 190px;
         width: 100%;
-    }
-
-    /* contact section */
-
-    .container h1 {
-        font-size: 17px;
-        width: 300px;
-    }
-
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 300px;
     }
 }
 
@@ -1694,18 +1627,6 @@ footer .wrapper .icon {
 
     .project-skill .link {
         font-size: 17px;
-    }
-
-    /* contact section */
-
-    .container h1 {
-        font-size: 15px;
-        width: 280px;
-    }
-
-    .container .input-box,
-    .container .button input[type="submit"] {
-        width: 280px;
     }
 
     /* footer */
