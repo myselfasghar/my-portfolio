@@ -592,6 +592,7 @@ section .heading {
     font-size: 20px;
     margin-bottom: 25px;
     color: #eef3db;
+    width: 600px;
 }
 
 .mail i {
@@ -696,6 +697,10 @@ footer .wrapper .icon {
 
     .container {
         margin-top: 50px;
+    }
+
+    .container p {
+        width: 600px;
     }
 }
 
@@ -1220,6 +1225,7 @@ footer .wrapper .icon {
     .container p {
         font-size: 16px;
         margin-bottom: 20px;
+        width: 500px;
     }
 
     .mail i {
@@ -1357,6 +1363,7 @@ footer .wrapper .icon {
 
     .container p {
         font-size: 15px;
+        width: 450px;
     }
 
     .mail i {
@@ -1533,6 +1540,10 @@ footer .wrapper .icon {
         margin-top: 30px;
     }
 
+    .container p {
+        width: 350px;
+    }
+
     /* all */
 
     #home,
@@ -1603,6 +1614,10 @@ footer .wrapper .icon {
 
     .container {
         margin-top: 30px;
+    }
+
+    .container p {
+        width: 300px;
     }
 }
 
