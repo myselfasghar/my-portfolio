@@ -692,7 +692,7 @@ footer .wrapper .icon {
     /* contact section */
 
     #contact {
-        min-height: 55vh;
+        min-height: 50vh;
     }
 
     .container {
@@ -883,11 +883,11 @@ footer .wrapper .icon {
     /* contact section */
 
     #contact {
-        min-height: 40vh;
+        min-height: 35vh;
     }
 
     .container {
-        margin-top: 30px;
+        margin-top: 50px;
     }
 }
 
@@ -1062,7 +1062,11 @@ footer .wrapper .icon {
     /* contact section */
 
     #contact {
-        min-height: 45vh;
+        min-height: 35vh;
+    }
+
+    .container {
+        margin-top: 50px;
     }
 }
 
@@ -1116,7 +1120,7 @@ footer .wrapper .icon {
     /* contact section */
 
     #contact {
-        min-height: 70vh;
+        min-height: 45vh;
     }
 
     .container {
@@ -1153,11 +1157,6 @@ footer .wrapper .icon {
         font-size: 14px;
     }
 
-    /* contact section */
-
-    #contact {
-        min-height: 45vh;
-    }
 }
 
 @media (max-width: 730px) {
@@ -1208,10 +1207,6 @@ footer .wrapper .icon {
 @media (max-width: 700px) {
 
     /* contact section */
-
-    #contact {
-        min-height: 65vh;
-    }
 
     .container {
         margin-top: 50px;
@@ -1348,10 +1343,6 @@ footer .wrapper .icon {
 @media (max-width: 560px) {
 
     /* contact section */
-
-    #contact {
-        min-height: 55vh;
-    }
 
     .container {
         margin-top: 30px;
