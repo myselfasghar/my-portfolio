@@ -14,6 +14,9 @@ const sr = ScrollReveal({
 });
 
 // home section
+sr.reveal('.head', { delay: 50, origin: 'left' });
+sr.reveal('.menu', { delay: 50, origin: 'right' });
+sr.reveal('.menu-btn', { delay: 50, origin: 'right' });
 sr.reveal('.main-content', { delay: 50, origin: 'top' });
 sr.reveal('.content-image', { delay: 50, origin: 'top' });
 
