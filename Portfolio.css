@@ -80,6 +80,8 @@ header .navbar .menu {
     cursor: pointer;
     display: none;
     user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 /** home section **/
@@ -146,6 +148,9 @@ h3 .text {
 
 .icons {
     margin-left: 60px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .icons i {
@@ -160,6 +165,8 @@ h3 .text {
     line-height: 43px;
     margin: 14px 5px;
     transition: all 0.3s ease;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .icons a:nth-child(1) i:hover {
@@ -182,6 +189,12 @@ h3 .text {
     background: #fff;
 }
 
+#experience {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
 button {
     cursor: pointer;
     padding: 12px 28px;
@@ -194,6 +207,9 @@ button {
     border: none;
     margin-left: 60px;
     margin-top: 10px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 button:hover {
@@ -595,10 +611,19 @@ section .heading {
     width: 600px;
 }
 
+.mail {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+
 .mail i {
     font-size: 40px;
     color: #eef3db;
     transition: all 0.3s ease;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
 .mail i:hover {
@@ -769,6 +794,8 @@ footer .wrapper .icon {
         width: 450px;
     }
 }
+
+/* Menu activates here */
 
 @media (max-width: 1100px) {
 
