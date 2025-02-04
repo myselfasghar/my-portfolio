@@ -19,7 +19,10 @@ body {
 
 html,
 body {
+    overflow-y: auto;
     overflow-x: hidden;
+    scrollbar-color: #057786 #022a30;
+    scrollbar-width: thin;
 }
 
 /** navbar **/
@@ -301,8 +304,8 @@ section .heading {
     gap: 20px;
 }
 
-.box-wrap {
-    height: 150px;
+.education .box-wrap {
+    height: 140px;
     width: 80%;
     border-left: 5px solid transparent;
     border-bottom: 5px solid transparent;
@@ -329,13 +332,13 @@ section .heading {
 
 .box h5 {
     font-size: 20px;
-    margin: 16px 0 24px;
+    margin: 8px 0 16px;
     color: #eef3db;
     letter-spacing: 1px;
 }
 
 .box h6 {
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 8px;
     color: #ffff00;
     letter-spacing: 1px;
@@ -563,12 +566,27 @@ section .heading {
     background: #057786;
 }
 
-.experience-box .box-wrap .box h5 {
-    font-size: 18px;
-    margin: 5px 0 0 20px;
+.experience-box-wrap {
+    height: 150px;
+    width: 80%;
+    border-left: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
-.experience-box .box-wrap .box h6 {
+.experience-box-wrap:hover {
+    border-left: 5px solid yellow;
+    border-bottom: 5px solid yellow;
+}
+
+.experience-box .experience-box-wrap .box h5 {
+    font-size: 18px;
+    margin: 3px 0 0 20px;
+}
+
+.experience-box .experience-box-wrap .box h6 {
     font-size: 16px;
     margin: 5px 0 0 25px;
 }
@@ -879,19 +897,19 @@ footer .wrapper .icon {
         width: 40%;
     }
 
-    .box-wrap,
+    .education .box-wrap,
     .box {
         height: 130px;
         width: 100%;
     }
 
     .box h5 {
-        font-size: 15px;
+        font-size: 16px;
         margin: 12px 0;
     }
 
     .box h6 {
-        font-size: 13;
+        font-size: 14px;
         margin: 0;
     }
 
@@ -902,6 +920,7 @@ footer .wrapper .icon {
     }
 
     .experience-box #box1,
+    .experience-box #box2,
     .experience-box .box {
         height: 160px;
         width: 100%;
@@ -1056,7 +1075,7 @@ footer .wrapper .icon {
         padding: 20px;
     }
 
-    .box-wrap,
+    .education .box-wrap,
     .box {
         height: 110px;
     }
@@ -1073,16 +1092,19 @@ footer .wrapper .icon {
 
     /* experience section */
 
-    .experience-box #box1 {
+    .experience-box #box1,
+    .experience-box #box2 {
         height: 150px;
         width: 100%;
     }
 
-    .experience-box #box1 h5 {
+    .experience-box #box1 h5,
+    .experience-box #box2 h5 {
         font-size: 16px;
     }
 
-    .experience-box #box1 h6 {
+    .experience-box #box1 h6,
+    .experience-box #box2 h6 {
         font-size: 15px;
     }
 
@@ -1171,17 +1193,39 @@ footer .wrapper .icon {
 
     /* experience section */
 
-    .experience-box #box1 {
+    .experience-box #box1,
+    .experience-box #box2 {
         height: 140px;
         width: 100%;
     }
 
-    .experience-box #box1 h5 {
+    .experience-box #box1 h5,
+    .experience-box #box2 h5 {
         font-size: 15px;
     }
 
-    .experience-box #box1 h6 {
+    .experience-box #box1 h6,
+    .experience-box #box2 h6 {
         font-size: 14px;
+    }
+}
+
+@media (max-width: 740px) {
+
+    /* experience section */
+
+    .experience-box #box1 {
+        height: 135px;
+        width: 100%;
+    }
+
+    .experience-box #box2 {
+        height: 155px;
+        width: 100%;
+    }
+
+    .experience-box .box {
+        padding: 25px 10px 0 0;
     }
 }
 
@@ -1195,9 +1239,9 @@ footer .wrapper .icon {
 
     /* about section */
 
-    .box-wrap,
+    .education .box-wrap,
     .box {
-        height: 130px;
+        height: 120px;
     }
 
     /* skills section */
@@ -1220,13 +1264,6 @@ footer .wrapper .icon {
         margin-top: 10px;
         font-size: 11px;
         padding: 4px 8px;
-    }
-
-    /* experience section */
-
-    .experience-box #box1 {
-        height: 150px;
-        width: 100%;
     }
 }
 
@@ -1268,6 +1305,19 @@ footer .wrapper .icon {
 
     .icon {
         margin: 0;
+    }
+}
+
+@media (max-width: 645px) {
+
+    /* about section */
+
+    #box1 {
+        height: 100px;
+    }
+
+    .box h5 {
+        margin: 6px 0;
     }
 }
 
@@ -1330,11 +1380,13 @@ footer .wrapper .icon {
 
     /* experience section */
 
-    .experience-box #box1 h5 {
+    .experience-box #box1 h5,
+    .experience-box #box2 h5 {
         font-size: 14px;
     }
 
-    .experience-box #box1 h6 {
+    .experience-box #box1 h6,
+    .experience-box #box2 h6 {
         font-size: 13px;
     }
 }
@@ -1434,10 +1486,6 @@ footer .wrapper .icon {
         width: 45%;
     }
 
-    #box1 {
-        height: 130px;
-    }
-
     .heading .title {
         width: 80%;
     }
@@ -1516,6 +1564,15 @@ footer .wrapper .icon {
     }
 }
 
+@media (max-width: 475px) {
+
+    /* about section */
+
+    #box1 {
+        height: 130px;
+    }
+}
+
 @media (max-width: 460px) {
 
     /* skills section */
@@ -1590,9 +1647,13 @@ footer .wrapper .icon {
         min-height: 50vh;
     }
 
-    .box-wrap,
+    .education .box-wrap,
     .box {
-        height: 160px;
+        height: 140px;
+    }
+
+    #box1 {
+        height: 120px;
     }
 
     .heading .title {
@@ -1627,6 +1688,13 @@ footer .wrapper .icon {
         font-size: 22px;
     }
 
+    .experience-box #box1,
+    .experience-box #box2,
+    .experience-box .box {
+        height: 150px;
+        width: 100%;
+    }
+
     /* contact section */
 
     .container {
@@ -1638,14 +1706,32 @@ footer .wrapper .icon {
     }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 370px) {
 
     /* experience section */
 
-    .experience-box #box1,
+    .experience-box #box1 {
+        height: 180px;
+    }
+
+    .experience-box #box2,
     .experience-box .box {
         height: 190px;
         width: 100%;
+    }
+}
+
+@media (max-width: 360px) {
+
+    /* about section */
+
+    .education .box-wrap,
+    .box {
+        height: 160px;
+    }
+
+    #box1 {
+        height: 120px;
     }
 }
 
