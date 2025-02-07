@@ -69,12 +69,17 @@ header .navbar .menu {
     font-size: 24px;
     font-weight: 500;
     transition: all 0.3s ease;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .nav-link:hover {
     color: black;
     background: yellow;
 }
+
+/* menu button */
 
 .menu-btn {
     color: #fff;
@@ -85,6 +90,29 @@ header .navbar .menu {
     user-select: none;
     outline: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+.menu-btn-2 {
+    color: #fff;
+    font-size: 30px;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menu-btn,
+.menu-btn-2 {
+    position: absolute;
+    right: 15px;
+    transition: opacity 0.3s ease-in-out;
 }
 
 /** home section **/
@@ -817,44 +845,43 @@ footer .wrapper .icon {
 
 @media (max-width: 1100px) {
 
-    /* home section */
+    /* menu */
 
     .menu-btn {
         display: block;
     }
 
+    .menu-btn,
+    .menu-btn-2 {
+        right: 50px;
+    }
+
     .menu {
         position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 260px;
+        top: -300%;
+        right: 0;
+        width: 100%;
         min-height: 260px;
-        background: #046d78;
+        background: #022a30;
         display: flex;
-        align-items: center;
         flex-direction: column;
-        padding: 30px 20px;
-        border-radius: 15px;
+        padding: 30px;
         transition: all 0.5s ease;
     }
 
     .menu.active {
-        right: 0;
+        top: 88px;
         transition: all 0.5s ease;
-    }
-
-    .menu li {
-        width: 100%;
-        text-align: center;
     }
 
     .nav-link {
         font-size: 17px;
         margin-bottom: 8px;
         display: block;
-        width: 100%;
-        border-radius: 10px;
-        border: 1px solid #eef3db;
+        width: 140px;
+        user-select: none;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
     }
 
     .nav-link:hover {
@@ -1520,9 +1547,22 @@ footer .wrapper .icon {
     .mail i {
         font-size: 26px;
     }
+
+    /* menu */
+
+    .menu {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 480px) {
+
+    /* menu */
+
+    .menu-btn,
+    .menu-btn-2 {
+        right: 40px;
+    }
 
     /* home section */
 
@@ -1631,6 +1671,13 @@ footer .wrapper .icon {
 
 @media (max-width: 400px) {
 
+    /* menu */
+
+    .menu-btn,
+    .menu-btn-2 {
+        right: 15px;
+    }
+
     /* home section */
 
     section .content {
@@ -1704,6 +1751,12 @@ footer .wrapper .icon {
     .container p {
         width: 300px;
     }
+
+    /* menu */
+
+    .menu {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 370px) {
@@ -1737,13 +1790,16 @@ footer .wrapper .icon {
 
 @media (max-width: 345px) {
 
-    /* home section */
+    /* menu */
 
-    header .navbar .head {
+    .menu-btn,
+    .menu-btn-2 {
         font-size: 25px;
     }
 
-    .menu-btn {
+    /* home section */
+
+    header .navbar .head {
         font-size: 25px;
     }
 
