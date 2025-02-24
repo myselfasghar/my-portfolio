@@ -17,12 +17,22 @@ body {
     padding: 0;
 }
 
-html,
-body {
-    overflow-y: auto;
-    overflow-x: hidden;
-    scrollbar-color: #057786 #022a30;
+::-webkit-scrollbar {
+    height: 8px;
     scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+    background: #022a30;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #057786;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4070f4
 }
 
 /** navbar **/
