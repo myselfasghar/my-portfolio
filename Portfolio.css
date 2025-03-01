@@ -23,11 +23,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #022a30;
+    background: #14181f;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #057786;
+    background: #21242c;
     border-radius: 25px;
 }
 
@@ -43,7 +43,7 @@ header {
     top: 0;
     left: 0;
     z-index: 1;
-    background: #022a30;
+    background: #14181f;
 }
 
 header .navbar {
@@ -56,7 +56,7 @@ header .navbar {
 header .navbar .head {
     font-size: 30px;
     font-weight: 500;
-    color: #eef3db;
+    color: #d3d7de;
     text-decoration: none;
 }
 
@@ -72,7 +72,7 @@ header .navbar .menu {
 
 .nav-link {
     text-decoration: none;
-    color: #eef3db;
+    color: #d3d7de;
     background: none;
     padding: 5px 20px;
     border-radius: 20px;
@@ -85,14 +85,14 @@ header .navbar .menu {
 }
 
 .nav-link:hover {
-    color: black;
-    background: yellow;
+    color: #fff;
+    background: #3a90f8;
 }
 
 /* menu button */
 
 .menu-btn {
-    color: #fff;
+    color: #d3d7de;
     font-size: 30px;
     z-index: 2;
     cursor: pointer;
@@ -103,7 +103,7 @@ header .navbar .menu {
 }
 
 .menu-btn-2 {
-    color: #fff;
+    color: #d3d7de;
     font-size: 30px;
     z-index: 2;
     cursor: pointer;
@@ -130,12 +130,12 @@ header .navbar .menu {
 #home {
     min-height: 100vh;
     width: 100%;
-    background: #022a30;
+    background: #14181f;
     margin: 0;
     padding: 120px 0 0 0;
     box-sizing: border-box;
     position: relative;
-    border-bottom: 3px solid #eef3db;
+    border-bottom: 3px solid #d3d7de;
     overflow: hidden;
 }
 
@@ -155,7 +155,7 @@ section .content {
 .text-content {
     width: 55%;
     margin: 0 0 0 65px;
-    color: #eef3db;
+    color: #d3d7de;
 }
 
 .text-content h4 {
@@ -176,7 +176,7 @@ section .content {
 }
 
 h3 .text {
-    color: #ffff00;
+    color: #3a90f8;
 }
 
 .text-content p {
@@ -202,7 +202,7 @@ h3 .text {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    border: 2px solid #eef3db;
+    border: 2px solid #d3d7de;
     line-height: 43px;
     margin: 14px 5px;
     transition: all 0.3s ease;
@@ -242,8 +242,8 @@ button {
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
-    background: #ffff00;
-    color: #000;
+    background: #3a90f8;
+    color: #d3d7de;
     border-radius: 10px;
     border: none;
     margin-left: 60px;
@@ -254,8 +254,7 @@ button {
 }
 
 button:hover {
-    background: #5a5a03fe;
-    color: rgb(11, 128, 154);
+    background: #3282e4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -276,12 +275,12 @@ button:hover {
 #about {
     min-height: 60vh;
     width: 100%;
-    background: #022a30;
+    background: #14181f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    border-bottom: 3px solid #eef3db;
+    border-bottom: 3px solid #d3d7de;
     padding: 60px 38px;
     scroll-margin-top: 120px;
 }
@@ -307,9 +306,9 @@ section .heading {
     line-height: 40px;
     font-size: 20px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     margin-bottom: 8px;
-    background: #ffff00;
+    background: #21242c;
     text-transform: uppercase;
 }
 
@@ -324,11 +323,11 @@ section .heading {
     display: flex;
     justify-content: center;
     width: 30%;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     margin-bottom: 8px;
-    background: #ffff00;
+    background: #21242c;
     border-radius: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -353,7 +352,7 @@ section .heading {
 }
 
 .box {
-    background: #057786;
+    background: #2e3138;
     border-radius: 10px;
     padding: 24px;
     user-select: none;
@@ -364,21 +363,21 @@ section .heading {
 }
 
 .box-wrap:hover {
-    border-left: 5px solid yellow;
-    border-bottom: 5px solid yellow;
+    border-left: 5px solid #3a90f8;
+    border-bottom: 5px solid #3a90f8;
 }
 
 .box h5 {
     font-size: 20px;
     margin: 8px 0 16px;
-    color: #eef3db;
+    color: #d3d7de;
     letter-spacing: 1px;
 }
 
 .box h6 {
     font-size: 17px;
     margin-bottom: 8px;
-    color: #ffff00;
+    color: #3a90f8;
     letter-spacing: 1px;
 }
 
@@ -386,11 +385,11 @@ section .heading {
     display: flex;
     justify-content: center;
     width: 30%;
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     margin-bottom: 30px;
-    background: #ffff00;
+    background: #21242c;
     border-radius: 20px;
     text-align: center;
     text-transform: uppercase;
@@ -401,12 +400,12 @@ section .heading {
 #skills {
     min-height: 100vh;
     width: 100%;
-    background: #022a30;
+    background: #14181f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    border-bottom: 3px solid #eef3db;
+    border-bottom: 3px solid #d3d7de;
     padding: 60px 38px;
     scroll-margin-top: 120px;
 }
@@ -443,8 +442,8 @@ section .heading {
 
 .tool,
 .tech {
-    border: 4px solid #057786;
-    background: #fff;
+    border: 4px solid #2e3138;
+    background: #21242c;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -467,15 +466,15 @@ section .heading {
     min-width: 50%;
     font-size: 17px;
     font-weight: 600;
-    background: #057786;
-    color: #eef3db;
+    background: #3a90f8;
+    color: #d3d7de;
     border-radius: 10px;
     padding: 8px 12px;
     cursor: default;
 }
 
 .name:hover {
-    background: #046d78;
+    background: #3282e4;
     color: #fff;
 }
 
@@ -484,12 +483,12 @@ section .heading {
 #experience {
     min-height: 100vh;
     width: 100%;
-    background: #022a30;
+    background: #14181f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    border-bottom: 3px solid #eef3db;
+    border-bottom: 3px solid #d3d7de;
     padding: 60px 38px;
     scroll-margin-top: 120px;
 }
@@ -516,8 +515,8 @@ section .heading {
 }
 
 .project-box {
-    border: 1px solid #057786;
-    background-color: #057786;
+    border: 1px solid transparent;
+    background-color: #2e3138;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -526,8 +525,8 @@ section .heading {
 }
 
 .project-box-wrap:hover {
-    border-left: 5px solid yellow;
-    border-bottom: 5px solid yellow;
+    border-left: 5px solid #3a90f8;
+    border-bottom: 5px solid #3a90f8;
 }
 
 .image img {
@@ -540,7 +539,7 @@ section .heading {
 }
 
 .project-box .info {
-    background: #057786;
+    background: #2e3138;
     text-align: left;
     padding: 10px 16px;
     border-radius: 0 0 7px 7px;
@@ -550,12 +549,12 @@ section .heading {
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
-    color: #ffffff;
+    color: #d3d7de;
 }
 
 .info .project-info {
     font-size: 16px;
-    color: #ffffff;
+    color: #d3d7de;
     margin-bottom: 16px;
     letter-spacing: 1px;
 }
@@ -567,11 +566,11 @@ section .heading {
 }
 
 .project-skill .skill {
-    font-size: 16px;
-    color: #ffff00;
-    border: 1px solid #fff;
+    font-size: 14px;
+    color: #3a90f8;
+    border: 1px solid #d3d7de;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 10px;
     margin: 5px 5px 10px;
     letter-spacing: 1px;
 }
@@ -587,7 +586,7 @@ section .heading {
 }
 
 .link a i:hover {
-    color: #ffff00;
+    color: #3a90f8;
 }
 
 .experience-box {
@@ -601,7 +600,7 @@ section .heading {
 .experience-box .box {
     padding: 30px 0;
     height: 150px;
-    background: #057786;
+    background: #2e3138;
 }
 
 .experience-box-wrap {
@@ -615,8 +614,8 @@ section .heading {
 }
 
 .experience-box-wrap:hover {
-    border-left: 5px solid yellow;
-    border-bottom: 5px solid yellow;
+    border-left: 5px solid #3a90f8;
+    border-bottom: 5px solid #3a90f8;
 }
 
 .experience-box .experience-box-wrap .box h5 {
@@ -634,12 +633,12 @@ section .heading {
 #contact {
     min-height: 70vh;
     width: 100%;
-    background: #022a30;
+    background: #14181f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    border-bottom: 3px solid #eef3db;
+    border-bottom: 3px solid #d3d7de;
     padding: 60px 30px 40px;
     scroll-margin-top: 120px;
 }
@@ -656,14 +655,14 @@ section .heading {
 .container h1 {
     font-size: 40px;
     margin-bottom: 25px;
-    color: #eef3db;
+    color: #d3d7de;
     line-height: 1.4;
 }
 
 .container p {
     font-size: 20px;
     margin-bottom: 25px;
-    color: #eef3db;
+    color: #d3d7de;
     width: 600px;
 }
 
@@ -675,7 +674,7 @@ section .heading {
 
 .mail i {
     font-size: 40px;
-    color: #eef3db;
+    color: #d3d7de;
     transition: all 0.3s ease;
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -690,7 +689,7 @@ section .heading {
 
 footer {
     width: 100%;
-    background: #022a30;
+    background: #14181f;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -712,7 +711,7 @@ footer .wrapper {
 
 footer .wrapper p {
     font-size: 16px;
-    color: #b6cbce;
+    color: #d3d7de;
     margin: 10px 0;
 }
 
@@ -872,7 +871,7 @@ footer .wrapper .icon {
         right: 0;
         width: 100%;
         min-height: 260px;
-        background: #022a30;
+        background: #14181f;
         display: flex;
         flex-direction: column;
         padding: 30px;
@@ -895,7 +894,7 @@ footer .wrapper .icon {
     }
 
     .nav-link:hover {
-        border: 1px solid #ffff00;
+        border: 1px solid #2e3138;
     }
 
     .nav-link:last-child {
