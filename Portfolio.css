@@ -17,6 +17,12 @@ body {
     padding: 0;
 }
 
+html,
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 ::-webkit-scrollbar {
     height: 8px;
     scrollbar-width: thin;
@@ -306,8 +312,9 @@ section .heading {
     line-height: 40px;
     font-size: 20px;
     font-weight: 600;
-    color: #fff;
+    color: #3282e4;
     margin-bottom: 8px;
+    letter-spacing: 1px;
     background: #21242c;
     text-transform: uppercase;
 }
@@ -327,6 +334,7 @@ section .heading {
     font-weight: 600;
     color: #fff;
     margin-bottom: 8px;
+    padding: 2px 0;
     background: #21242c;
     border-radius: 20px;
     text-align: center;
@@ -388,6 +396,7 @@ section .heading {
     font-size: 30px;
     font-weight: 600;
     color: #fff;
+    padding: 2px 0;
     margin-bottom: 30px;
     background: #21242c;
     border-radius: 20px;
@@ -456,7 +465,7 @@ section .heading {
 
 .tool img,
 .tech img {
-    width: 200px;
+    width: 180px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -466,16 +475,13 @@ section .heading {
     min-width: 50%;
     font-size: 17px;
     font-weight: 600;
-    background: #3a90f8;
+    background: transparent;
+    border: 2px solid #2e3138;
+    margin: 10px 0 -5px 0;
     color: #d3d7de;
     border-radius: 10px;
-    padding: 8px 12px;
+    padding: 6px 10px;
     cursor: default;
-}
-
-.name:hover {
-    background: #3282e4;
-    color: #fff;
 }
 
 /** experience section **/
@@ -549,7 +555,7 @@ section .heading {
     font-size: 24px;
     font-weight: 700;
     text-transform: capitalize;
-    color: #d3d7de;
+    color: #3a90f8;
 }
 
 .info .project-info {
@@ -1641,6 +1647,16 @@ footer .wrapper .icon {
         width: 350px;
     }
 
+    .image img {
+        height: 200px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .project-box .info {
+        padding: 10px;
+    }
+
     .info .project-name {
         font-size: 20px;
     }
@@ -1651,6 +1667,7 @@ footer .wrapper .icon {
 
     .project-skill .skill {
         font-size: 12px;
+        padding: 5px;
     }
 
     .project-skill .link {
@@ -1724,7 +1741,11 @@ footer .wrapper .icon {
     /* experience section */
 
     .project-box {
-        width: 300px;
+        width: 340px;
+    }
+
+    .image img {
+        height: 150px;
     }
 
     .info .project-name {
