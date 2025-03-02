@@ -9,10 +9,10 @@ Welcome to my **Personal Portfolio Website**! 🚀 This website showcases my ski
 ✅ **Responsive Design** – Adapts seamlessly to all screen sizes (desktop, tablet, and mobile).  
 ✅ **Smooth Animations** – JavaScript-powered animations enhance user experience.  
 ✅ **Home Section** – A brief introduction about me and my goals.  
-✅ **About Section** – My journey, education, and interests.  
+✅ **About Section** – Contains details about my education.  
 ✅ **Skills Section** – Technologies and tools I am proficient in.  
 ✅ **Projects Section** – Featured projects I have built.  
-✅ **Contact Section** – A form to send messages or collaboration requests.  
+✅ **Contact Section** – Provides a mailto link for direct emails.  
 
 ---
 
