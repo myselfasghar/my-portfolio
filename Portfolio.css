@@ -23,6 +23,8 @@ body {
     overflow-x: hidden;
 }
 
+/* scrollbar */
+
 ::-webkit-scrollbar {
     height: 8px;
     scrollbar-width: thin;
@@ -59,12 +61,16 @@ header .navbar {
     justify-content: space-between;
 }
 
+/* navbar head */
+
 header .navbar .head {
     font-size: 30px;
     font-weight: 500;
     color: #d3d7de;
     text-decoration: none;
 }
+
+/* menu */
 
 header .navbar .menu {
     display: flex;
@@ -95,7 +101,7 @@ header .navbar .menu {
     background: #3a90f8;
 }
 
-/* menu button */
+/* menu buttons */
 
 .menu-btn {
     color: #d3d7de;
@@ -117,6 +123,8 @@ header .navbar .menu {
     outline: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+/* hidden class for menu */
 
 .hidden {
     visibility: hidden;
@@ -144,6 +152,8 @@ header .navbar .menu {
     border-bottom: 3px solid #d3d7de;
     overflow: hidden;
 }
+
+/* text content */
 
 .main-content {
     min-width: 650px;
@@ -193,6 +203,8 @@ h3 .text {
     letter-spacing: 1px;
 }
 
+/* social icons */
+
 .icons {
     margin-left: 60px;
     outline: none;
@@ -236,6 +248,8 @@ h3 .text {
     background: #fff;
 }
 
+/* My work button */
+
 #experience {
     outline: none;
     -webkit-tap-highlight-color: transparent;
@@ -264,6 +278,8 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* home page image */
+
 .content-image {
     display: flex;
     justify-content: center;
@@ -291,9 +307,7 @@ button:hover {
     scroll-margin-top: 120px;
 }
 
-section .title {
-    font-size: 25px;
-}
+/* title */
 
 section .heading {
     display: flex;
@@ -319,6 +333,8 @@ section .heading {
     text-transform: uppercase;
 }
 
+/* topics */
+
 .wrap {
     display: flex;
     justify-content: center;
@@ -340,6 +356,23 @@ section .heading {
     text-align: center;
     text-transform: uppercase;
 }
+
+.topic2 {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    padding: 2px 0;
+    margin-bottom: 30px;
+    background: #21242c;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* education boxes */
 
 .education {
     display: flex;
@@ -389,21 +422,6 @@ section .heading {
     letter-spacing: 1px;
 }
 
-.topic2 {
-    display: flex;
-    justify-content: center;
-    width: 30%;
-    font-size: 30px;
-    font-weight: 600;
-    color: #fff;
-    padding: 2px 0;
-    margin-bottom: 30px;
-    background: #21242c;
-    border-radius: 20px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
 /** skill section **/
 
 #skills {
@@ -418,6 +436,8 @@ section .heading {
     padding: 60px 38px;
     scroll-margin-top: 120px;
 }
+
+/* tools tech main container */
 
 .tools,
 .techs {
@@ -436,6 +456,8 @@ section .heading {
     margin-bottom: 38px;
 }
 
+/* Sub container of tools and tech */
+
 .tool-box,
 .tech-box {
     display: flex;
@@ -448,6 +470,8 @@ section .heading {
     flex-wrap: wrap;
     width: 844px;
 }
+
+/* tool and tech */
 
 .tool,
 .tech {
@@ -463,6 +487,8 @@ section .heading {
     text-align: center;
 }
 
+/* tool tech image */
+
 .tool img,
 .tech img {
     width: 180px;
@@ -470,6 +496,8 @@ section .heading {
     display: block;
     margin: 0 auto;
 }
+
+/* tool and tech name */
 
 .name {
     min-width: 50%;
@@ -499,6 +527,8 @@ section .heading {
     scroll-margin-top: 120px;
 }
 
+/* projects main container */
+
 .projects {
     display: flex;
     justify-content: center;
@@ -511,6 +541,8 @@ section .heading {
     margin-bottom: 30px;
 }
 
+/* projects sub container */
+
 .project-box-wrap {
     user-select: none;
     border-left: 5px solid transparent;
@@ -519,6 +551,8 @@ section .heading {
     overflow: hidden;
     transition: all 0.3s ease;
 }
+
+/* project box */
 
 .project-box {
     border: 1px solid transparent;
@@ -535,6 +569,8 @@ section .heading {
     border-bottom: 5px solid #3a90f8;
 }
 
+/* project image */
+
 .image img {
     width: 100%;
     height: auto;
@@ -543,6 +579,8 @@ section .heading {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+
+/* project description */
 
 .project-box .info {
     background: #2e3138;
@@ -565,6 +603,8 @@ section .heading {
     letter-spacing: 1px;
 }
 
+/* project tech stack */
+
 .info .project-skill {
     display: flex;
     flex-direction: row;
@@ -581,6 +621,8 @@ section .heading {
     letter-spacing: 1px;
 }
 
+/* project code and live links */
+
 .project-skill .link {
     font-size: 30px;
     margin: 0 8px 5px;
@@ -594,6 +636,8 @@ section .heading {
 .link a i:hover {
     color: #3a90f8;
 }
+
+/* experience */
 
 .experience-box {
     display: flex;
@@ -649,6 +693,8 @@ section .heading {
     scroll-margin-top: 120px;
 }
 
+/* main container */
+
 .container {
     text-align: center;
     display: flex;
@@ -657,6 +703,8 @@ section .heading {
     flex-direction: column;
     margin-top: 80px;
 }
+
+/* text */
 
 .container h1 {
     font-size: 40px;
@@ -671,6 +719,8 @@ section .heading {
     color: #d3d7de;
     width: 600px;
 }
+
+/* mail icon */
 
 .mail {
     outline: none;
@@ -703,10 +753,14 @@ footer {
     padding: 24px 48px;
 }
 
+/* container */
+
 footer .wrapper {
     display: flex;
     justify-content: space-between;
 }
+
+/* copyright text */
 
 .wrapper .footer-text {
     display: flex;
@@ -720,6 +774,8 @@ footer .wrapper p {
     color: #d3d7de;
     margin: 10px 0;
 }
+
+/* icons */
 
 footer .wrapper .icon {
     display: flex;
@@ -1178,10 +1234,7 @@ footer .wrapper .icon {
         margin-left: 35px;
     }
 
-    .icons {
-        margin-left: 30px;
-    }
-
+    .icons,
     button {
         margin-left: 30px;
     }
@@ -1218,16 +1271,13 @@ footer .wrapper .icon {
         margin-top: 55px;
     }
 
-    .container h1 {
+    .container h1,
+    .mail i {
         font-size: 35px;
     }
 
     .container p {
         font-size: 18px;
-    }
-
-    .mail i {
-        font-size: 35px;
     }
 }
 
@@ -1408,10 +1458,7 @@ footer .wrapper .icon {
         font-size: 22px;
     }
 
-    .info .project-info {
-        font-size: 14px;
-    }
-
+    .info .project-info,
     .project-skill .skill {
         font-size: 14px;
     }
@@ -1447,16 +1494,13 @@ footer .wrapper .icon {
 
     /* contact section */
 
-    .container h1 {
+    .container h1,
+    .mail i {
         font-size: 28px;
     }
 
     .container p {
         font-size: 16px;
-    }
-
-    .mail i {
-        font-size: 28px;
     }
 }
 
@@ -1590,14 +1634,8 @@ footer .wrapper .icon {
         margin: 0 5px;
     }
 
-    .text-content {
-        margin-left: 0;
-    }
-
-    .icons {
-        margin-left: 0;
-    }
-
+    .text-content,
+    .icons,
     button {
         margin-left: 0;
     }
@@ -1741,7 +1779,7 @@ footer .wrapper .icon {
     /* experience section */
 
     .project-box {
-        width: 340px;
+        width: 300px;
     }
 
     .image img {
