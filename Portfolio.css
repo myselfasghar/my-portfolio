@@ -1057,7 +1057,7 @@ footer .wrapper .icon {
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 990px) {
 
     /* home section */
 
@@ -1069,6 +1069,9 @@ footer .wrapper .icon {
         width: 450px;
         height: auto;
     }
+}
+
+@media (max-width: 960px) {
 
     /* about section */
 
@@ -1526,7 +1529,7 @@ footer .wrapper .icon {
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 540px) {
 
     /* footer */
 
@@ -1544,6 +1547,9 @@ footer .wrapper .icon {
     #icon {
         display: none;
     }
+}
+
+@media (max-width: 530px) {
 
     /* contact section */
 
@@ -1624,6 +1630,10 @@ footer .wrapper .icon {
     }
 
     /* home section */
+
+    #home {
+        padding: 100px 0 0;
+    }
 
     header .navbar {
         padding: 30px 40px;
@@ -1779,7 +1789,7 @@ footer .wrapper .icon {
     /* experience section */
 
     .project-box {
-        width: 300px;
+        width: 340px;
     }
 
     .image img {
@@ -1827,7 +1837,62 @@ footer .wrapper .icon {
     }
 }
 
+@media (max-width: 378px) {
+
+    /* experience section */
+
+    .experience-box #box1 {
+        height: 150px;
+    }
+
+    .experience-box #box2,
+    .experience-box .box {
+        height: 170px;
+        width: 100%;
+    }
+}
+
 @media (max-width: 370px) {
+
+    /* home section */
+
+    header .navbar .head {
+        font-size: 25px;
+    }
+
+    .main-content {
+        min-width: 330px;
+    }
+
+    .text-content h4 {
+        font-size: 17px;
+    }
+
+    .text-content h2 {
+        font-size: 27px;
+    }
+
+    .text-content h3 {
+        font-size: 22px;
+    }
+
+    .text-content p {
+        font-size: 15px;
+        width: 330px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 9px 18px;
+    }
+
+    .icons i {
+        height: 30px;
+        width: 30px;
+        line-height: 28px;
+        font-size: 13px;
+        margin: 9px 5px;
+    }
 
     /* experience section */
 
@@ -1838,7 +1903,10 @@ footer .wrapper .icon {
     .experience-box #box2,
     .experience-box .box {
         height: 190px;
-        width: 100%;
+    }
+
+    .project-box {
+        width: 320px;
     }
 }
 
@@ -1853,6 +1921,12 @@ footer .wrapper .icon {
 
     #box1 {
         height: 120px;
+    }
+
+    /* experience */
+
+    .project-box {
+        width: 310px;
     }
 }
 
@@ -1913,12 +1987,16 @@ footer .wrapper .icon {
 
     /* experience section */
 
+    #experience {
+        padding: 40px 10px;
+    }
+
     .experience-box .box {
         padding-top: 20px;
     }
 
     .project-box {
-        width: 270px;
+        width: 300px;
     }
 
     .info .project-name {
