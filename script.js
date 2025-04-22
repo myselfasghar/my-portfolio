@@ -6,25 +6,28 @@ document.addEventListener('DOMContentLoaded', function () {
     const menuBtn2 = document.querySelector('.menu-btn-2');
     const navElements = document.querySelectorAll('.nav-link');
 
-    // when nav element is clicked hide menu box
+    // Initially hide the menu
+    menu.style.display = 'none';
+
+    // When a nav element is clicked, hide the menu
     navElements.forEach(navLink => {
-        navLink.addEventListener("click", function () {
-            menu.classList.toggle('active');
+        navLink.addEventListener('click', function () {
+            menu.style.display = 'none';
             menuBtn2.classList.add('hidden'); // Hide close button
             menuBtn.classList.remove('hidden'); // Show menu button
-        })
+        });
     });
 
-    // for menu open icon
+    // Menu open button click
     menuBtn.addEventListener('click', function () {
-        menu.classList.toggle('active');
+        menu.style.display = 'block';
         menuBtn.classList.add('hidden'); // Hide menu button
         menuBtn2.classList.remove('hidden'); // Show close button
     });
 
-    // for menu close icon
+    // Menu close button click
     menuBtn2.addEventListener('click', function () {
-        menu.classList.toggle('active');
+        menu.style.display = 'none';
         menuBtn2.classList.add('hidden'); // Hide close button
         menuBtn.classList.remove('hidden'); // Show menu button
     });
