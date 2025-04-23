@@ -929,7 +929,7 @@ footer .wrapper .icon {
 
     .menu {
         position: absolute;
-        top: 88px;
+        top: -300%;
         right: 0;
         width: 100%;
         min-height: 260px;
@@ -937,6 +937,11 @@ footer .wrapper .icon {
         display: flex;
         flex-direction: column;
         padding: 30px;
+        transition: all 0.5s ease;
+    }
+
+    .menu.active {
+        top: 88px;
         transition: all 0.5s ease;
     }
 
