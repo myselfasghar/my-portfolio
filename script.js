@@ -45,16 +45,16 @@ sr.reveal('.content-image', { delay: 50, origin: 'top' });
 
 // about section
 sr.reveal('.title', { delay: 50, origin: 'top' });
-sr.reveal('.box-wrap', { delay: 50, origin: 'left' });
+sr.reveal('.box-wrap', { delay: 50, origin: 'bottom' });
 
 // skills section
-sr.reveal('.topic1', { delay: 50, origin: 'right' });
-sr.reveal('.tool', { delay: 50, origin: 'left' });
-sr.reveal('.topic2', { delay: 50, origin: 'right' });
-sr.reveal('.tech', { delay: 50, origin: 'left' });
+sr.reveal('.topic1', { delay: 50, origin: 'top' });
+sr.reveal('.tool', { delay: 50, origin: 'bottom' });
+sr.reveal('.topic2', { delay: 50, origin: 'top' });
+sr.reveal('.tech', { delay: 50, origin: 'bottom' });
 
 // projects section
-sr.reveal('.project-box-wrap', { delay: 50, origin: 'left' });
+sr.reveal('.project-box-wrap', { delay: 50, origin: 'bottom' });
 
 // contact section
-sr.reveal('.container', { delay: 50, origin: 'left' });
+sr.reveal('.container', { delay: 50, origin: 'bottom' });
