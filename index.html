@@ -1,563 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <!-- font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="Portfolio.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shaik Asghar | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+  <link rel="stylesheet" href="Portfolio.css"/>
 </head>
-
 <body>
 
-    <header>
+<header>
+  <div class="navbar">
+    <div class="head">Shaik Asghar</div>
+    <ul class="menu" id="menu">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#experience" class="nav-link">Experience</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
+    <div class="menu-btn-2 hidden"><i class="fa-solid fa-xmark"></i></div>
+  </div>
+</header>
 
-        <div class="navbar">
+<section id="home">
+  <div class="content">
+    <div class="main-content">
+      <div class="text-content">
+        <h4>Hello, I'm</h4>
+        <h2>Shaik Asghar</h2>
+        <h3>And I'm a <span class="text typewriter"></span></h3>
 
-            <div class="head">Portfolio</div>
+        <p>Welcome to my portfolio. A proactive and detail-oriented Computer Science undergraduate with strong experience in building data-centric applications. Experienced in working with Python, SQL, and data visualization tools to uncover insights and support informed decision-making. Known for leadership in team environments, strong communication skills, and a consistent focus on delivering impactful, user-friendly solutions. Always eager to learn, adapt, and contribute to meaningful tech initiatives.
+</p>
+      </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/asghar-shaik/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/myselfasghar" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="resume.pdf" download><i class="fa-solid fa-file-arrow-down"></i></a>
+      </div>
+      <a href="#experience"><button>Explore my work</button></a>
+    </div>
+    <div class="content-image">
+      <div class="content-img-wrap">
+        <img src="images/home-page.png" alt="coder" />
+      </div>
+    </div>
+  </div>
+</section>
 
-            <ul class="menu" id="menu">
-                <li><a href="#home" class="nav-link">Home</a></li>
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#skills" class="nav-link">Skills</a></li>
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
+<section id="about">
+  <div class="heading"><div class="title">About</div></div>
+  <span class="wrap"><div class="topic2">Education</div></span>
+  <div class="education">
+    <div class="box-wrap" id="box1">
+      <div class="box">
+        <h5>B.Tech in Computer Science, SRKR Engineering College, Bhimavaram</h5>
+        <h6>2021 - 2025 | CGPA: 8.2</h6>
+      </div>
+    </div>
+    <div class="box-wrap">
+      <div class="box">
+        <h5>Sri Chaitanya Junior College, Bapatla</h5>
+        <h6>85% | 2019 - 2021</h6>
+      </div>
+    </div>
+    <div class="box-wrap">
+      <div class="box">
+        <h5>Rainbow High School, Bapatla</h5>
+        <h6>CGPA: 10 | 2018 - 2019</h6>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <div class="menu-btn"><i class="fa-solid fa-bars"></i></div>
-            <div class="menu-btn-2 hidden"><i class="fa-solid fa-xmark"></i></div>
+<section id="skills">
+  <div class="heading"><div class="title">Skills</div></div>
+  <span class="wrap"><div class="topic1">Tools</div></span>
+  <span class="tools">
+    <div class="tool-box">
+      <div class="tool"><img src="images/github.png" alt="GitHub"><div class="name"><p>GitHub</p></div></div>
+      <div class="tool"><img src="images/Vs code.png" alt="VS Code"><div class="name"><p>VS Code</p></div></div>
+      <div class="tool"><img src="images/Jupyter.png" alt="Jupyter"><div class="name"><p>Jupyter</p></div></div>
+    </div>
+  </span>
+  <span class="wrap"><div class="topic2" id="tech">Technologies</div></span>
+  <div class="techs">
+    <div class="tech-box">
+      <div class="tech"><img src="images/Python.png" alt="Python"><div class="name"><p>Python</p></div></div>
+      <div class="tech"><img src="images/SQL.png" alt="SQL"><div class="name"><p>SQL</p></div></div>
+      <div class="tech"><img src="images/Html.png" alt="HTML"><div class="name"><p>HTML</p></div></div>
+      <div class="tech"><img src="images/CSS.png" alt="CSS"><div class="name"><p>CSS</p></div></div>
+      <div class="tech"><img src="images/JS.png" alt="JavaScript"><div class="name"><p>JavaScript</p></div></div>
+    </div>
+  </div>
+</section>
 
+<section id="experience">
+  <div class="heading"><div class="title">Experience</div></div>
+  <span class="wrap"><div class="topic1">Projects</div></span>
+  <div class="projects">
+
+    <!-- jac-N Studios -->
+    <div class="project-box-wrap">
+      <div class="project-box">
+        <div class="image"><img src="Project/jac-n-studios.png" alt="jac-N Studios"></div>
+        <div class="info">
+          <div class="project-name"><p>jac-N Studios</p></div>
+          <div class="project-info"><p>A MERN stack film review platform enabling users to share and explore movie reviews. Scaled to support 1000+ users.</p></div>
+          <div class="project-skill">
+            <div class="skill"><p>MongoDB</p></div>
+            <div class="skill"><p>Express.js</p></div>
+            <div class="skill"><p>React.js</p></div>
+            <div class="skill"><p>Node.js</p></div>
+            <div class="link"><a href="https://jacn-studios.vercel.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+          </div>
         </div>
+      </div>
+    </div>
 
-    </header>
-
-    <section id="home">
-
-        <div class="content">
-
-            <div class="main-content">
-
-                <div class="text-content">
-
-                    <h4>Hello, It's Me</h4>
-                    <h2>Aditya Chandel</h2>
-                    <h3>And I'm a <span class="text">Web developer</span></h3>
-                    <p>Explore my portfolio featuring projects built with HTML and CSS, reflecting my journey after
-                        completing C, C++ language. Currently, I'm learning DSA and making projects using JavaScript to
-                        expand my web development skills</p>
-                </div>
-
-                <div class="icons">
-
-                    <a target="_blank" href="https://linkedin.com/in/aditya-chandel-223bb3308"
-                        aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/TonyStark-19" aria-label="GitHub profile"><i
-                            class="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="https://instagram.com/aaditya_ch124" aria-label="Instagram profile"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a target="_blank" href="https://twitter.com/iamaditya_3" aria-label="X Profile"><i
-                            class="fa-brands fa-twitter"></i></a>
-
-                </div>
-
-                <a href="#experience"><button>Explore my work</button></a>
-
-            </div>
-
-            <div class="content-image">
-
-                <div class="content-img-wrap">
-                    <img src="images/home-page.png" alt="coder">
-                </div>
-
-            </div>
-
+    <!-- Focusite -->
+    <div class="project-box-wrap">
+      <div class="project-box">
+        <div class="image"><img src="Project/focusite.png" alt="Focusite"></div>
+        <div class="info">
+          <div class="project-name"><p>Focusite</p></div>
+          <div class="project-info"><p>A productivity-focused app using structured sessions, built with HTML/CSS/JavaScript and motivational content.</p></div>
+          <div class="project-skill">
+            <div class="skill"><p>HTML</p></div>
+            <div class="skill"><p>CSS</p></div>
+            <div class="skill"><p>JavaScript</p></div>
+            <div class="link"><a href="https://github.com/myselfasghar/Focusite" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+          </div>
         </div>
+      </div>
+    </div>
 
-    </section>
-
-    <section id="about">
-
-        <div class="heading">
-
-            <div class="title">About</div>
-
+    <!-- Data Analytics -->
+    <div class="project-box-wrap">
+      <div class="project-box">
+        <div class="image"><img src="Project/data-analytics.png" alt="Data Analytics"></div>
+        <div class="info">
+          <div class="project-name"><p>Data Analytics</p></div>
+          <div class="project-info"><p>Exploratory data analysis project using Python, Pandas, Matplotlib, and Seaborn. Features visual insights from real datasets.</p></div>
+          <div class="project-skill">
+            <div class="skill"><p>Python</p></div>
+            <div class="skill"><p>Pandas</p></div>
+            <div class="skill"><p>Seaborn</p></div>
+            <div class="link"><a href="https://github.com/myselfasghar/Data-Analytics" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+          </div>
         </div>
+      </div>
+    </div>
 
-        <span class="wrap">
-
-            <div class="topic2">Education</div>
-
-        </span>
-
-        <div class="education">
-
-            <div class="box-wrap" id="box1">
-
-                <div class="box">
-                    <h5>Pursuing BCA from HRIST College, Ghaziabad</h5>
-                    <h6>Sept 2023 - Present</h6>
-                </div>
-
-            </div>
-
-            <div class="box-wrap">
-
-                <div class="box">
-                    <h5>Completed 12th From Happy Modal School Nandgram, Ghaziabad</h5>
-                    <h6>With a score of 85% : Class Topper</h6>
-                </div>
-
-            </div>
-
+    <!-- ZOMAGGY -->
+    <div class="project-box-wrap">
+      <div class="project-box">
+        <div class="image"><img src="Project/zomaggy.png" alt="ZOMAGGY"></div>
+        <div class="info">
+          <div class="project-name"><p>ZOMAGGY</p></div>
+          <div class="project-info"><p>Interactive restaurant listing web app using HTML, CSS, JS. Simulates Zomato UI/UX with dynamic filtering and responsive layout.</p></div>
+          <div class="project-skill">
+            <div class="skill"><p>HTML</p></div>
+            <div class="skill"><p>CSS</p></div>
+            <div class="skill"><p>JavaScript</p></div>
+            <div class="link"><a href="https://github.com/myselfasghar/ZOMAGGY" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+            <div class="link"><a href="https://myselfasghar.github.io/ZOMAGGY/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
+          </div>
         </div>
+      </div>
+    </div>
 
-    </section>
+  </div>
 
-    <section id="skills">
-
-        <div class="heading">
-
-            <div class="title">Skills</div>
-
+  <div class="experience">
+    <span class="wrap"><div class="topic2">Work Experience</div></span>
+    <div class="experience-box">
+      <div class="experience-box-wrap" id="box1">
+        <div class="box">
+          <h5>SDE Intern & Team Lead</h5>
+          <h6>Leading Torch India Pvt. Ltd., Hyderabad | May 2023 – July 2023</h6>
+          <h5>Completed an SDE internship at Leading Torch India, where I led a team to develop a data management system and automate operations using Java and SQL.</h5>
         </div>
-
-        <span class="wrap">
-
-            <div class="topic1">Tools</div>
-
-        </span>
-
-        <span class="tools">
-
-            <div class="tool-box">
-
-                <div class="tool">
-
-                    <img src="images/git.png" alt="Git">
-                    <div class="name">
-                        <p>GIT</p>
-                    </div>
-
-                </div>
-
-                <div class="tool">
-
-                    <img src="images/github.png" alt="Github">
-                    <div class="name">
-                        <p>GITHUB</p>
-                    </div>
-
-                </div>
-
-                <div class="tool">
-
-                    <img src="images/Vs code.png" alt="VS Code">
-                    <div class="name">
-                        <p>VS CODE</p>
-                    </div>
-
-                </div>
-
-                <div class="tool">
-
-                    <img src="images/Figma.png" alt="Figma">
-                    <div class="name">
-                        <p>FIGMA</p>
-                    </div>
-
-                </div>
-
-                <div class="tool">
-
-                    <img src="images/Vercel.png" alt="Vercel">
-                    <div class="name">
-                        <p>VERCEL</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </span>
-
-        <span class="wrap">
-
-            <div class="topic2" id="tech">Technologies</div>
-
-        </span>
-
-        <div class="techs">
-
-            <div class="tech-box">
-
-                <div class="tech">
-
-                    <img src="images/C.png" alt="C">
-                    <div class="name">
-                        <p>C</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/Html.png" alt="HTML">
-                    <div class="name">
-                        <p>HTML</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/CSS.png" alt="CSS">
-                    <div class="name">
-                        <p>CSS</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/JS.png" alt="JS">
-                    <div class="name">
-                        <p>JavaScript</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/CPP.png" alt="CPP">
-                    <div class="name">
-                        <p>C++</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/React.png" alt="React JS">
-                    <div class="name">
-                        <p>React JS</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/bootstrap.png" alt="bootstrap">
-                    <div class="name">
-                        <p>Bootstrap</p>
-                    </div>
-
-                </div>
-
-                <div class="tech">
-
-                    <img src="images/tailwind.png" alt="tailwind">
-                    <div class="name">
-                        <p>Tailwind</p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="experience">
-
-        <div class="heading">
-
-            <div class="title">experience</div>
-
-        </div>
-
-        <span class="wrap">
-
-            <div class="topic1">Projects</div>
-
-        </span>
-
-        <div class="projects">
-
-            <div class="project-box-wrap">
-
-                <div class="project-box">
-
-                    <div class="image">
-                        <img src="Project/quiz-app.png" alt="Quiz app">
-                    </div>
-
-                    <div class="info">
-
-                        <div class="project-name">
-                            <p>Quiz App</p>
-                        </div>
-
-                        <div class="project-info">
-                            <p>React Quiz App, a dynamic and responsive quiz platform built using React and Tailwind
-                                CSS. It contains categories of quiz as per my tech stack.
-                            </p>
-                        </div>
-
-                        <div class="project-skill">
-
-                            <div class="skill">
-                                <p>React js</p>
-                            </div>
-
-                            <div class="skill">
-                                <p>Tailwind CSS</p>
-                            </div>
-
-                            <div class="link"><a target="_blank" href="https://github.com/TonyStark-19/Quiz-app"><i
-                                        class="fa-brands fa-github"></i></a></div>
-                            <div class="link"><a target="_blank" href="https://quiz-app-drab-beta.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box-wrap">
-
-                <div class="project-box">
-
-                    <div class="image">
-                        <img src="Project/c-coding.png" alt="c-coding website">
-                    </div>
-
-                    <div class="info">
-
-                        <div class="project-name">
-                            <p>C-Coding Website</p>
-                        </div>
-
-                        <div class="project-info">
-                            <p>This is my responsive c-programming website with programs categorised on based of level
-                                of difficulty and with separate code page.</p>
-                        </div>
-
-                        <div class="project-skill">
-
-                            <div class="skill">
-                                <p>React js</p>
-                            </div>
-
-                            <div class="skill">
-                                <p>CSS3</p>
-                            </div>
-
-                            <div class="link"><a target="_blank" href="https://github.com/TonyStark-19/C-Coding"><i
-                                        class="fa-brands fa-github"></i></a></div>
-                            <div class="link"><a target="_blank" href="https://c-programming-six.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box-wrap">
-
-                <div class="project-box">
-
-                    <div class="image">
-                        <img src="Project/todo-app.png" alt="todo-app">
-                    </div>
-
-                    <div class="info">
-
-                        <div class="project-name">
-                            <p>React js todo-app</p>
-                        </div>
-
-                        <div class="project-info">
-                            <p>A fully responsive and minimalistic Todo App built using React. This app allows users to
-                                manage daily tasks with a clean UI and intuitive interactions.</p>
-                        </div>
-
-                        <div class="project-skill">
-
-                            <div class="skill">
-                                <p>React js</p>
-                            </div>
-
-                            <div class="skill">
-                                <p>CSS3</p>
-                            </div>
-
-                            <div class="link"><a target="_blank" href="https://github.com/TonyStark-19/to-do-app"><i
-                                        class="fa-brands fa-github"></i></a></div>
-                            <div class="link"><a href="https://todo-phi-ruby.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="project-box-wrap">
-
-                <div class="project-box">
-
-                    <div class="image">
-                        <img src="Project/Js-projects.png" alt="Js-projects website">
-                    </div>
-
-                    <div class="info">
-
-                        <div class="project-name">
-                            <p>HTML-CSS-JS-Projects Website</p>
-                        </div>
-
-                        <div class="project-info">
-                            <p>This is my fully responsive HTML-CSS-JS mini projects website to showcase the mini js
-                                projects which i
-                                made
-                                to increase my JS implementation.</p>
-                        </div>
-
-                        <div class="project-skill">
-
-                            <div class="skill">
-                                <p>HTML5</p>
-                            </div>
-
-                            <div class="skill">
-                                <p>CSS3</p>
-                            </div>
-
-                            <div class="skill">
-                                <p>JavaScript</p>
-                            </div>
-
-                            <div class="link"><a target="_blank"
-                                    href="https://github.com/TonyStark-19/HTML-CSS-JS-Projects"><i
-                                        class="fa-brands fa-github"></i></a></div>
-                            <div class="link"><a target="_blank" href="https://html-css-js-projects-five.vercel.app/"><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="experience">
-
-            <span class="wrap">
-
-                <div class="topic2">Experience</div>
-
-            </span>
-
-            <div class="experience-box">
-
-                <div class="experience-box-wrap" id="box1">
-
-                    <div class="box">
-                        <h5>Technical Lead ( Dec 2024 - Present)</h5>
-                        <h6>Google developer's group on campus HRIT</h6>
-                        <h5>in the Web development core team</h5>
-                    </div>
-
-                </div>
-
-                <div class="experience-box-wrap" id="box2">
-
-                    <div class="box">
-                        <h5>Contributer (Oct 1 2024 - Oct 31 2024)</h5>
-                        <h6>Hacktoberfest 2024</h6>
-                        <h5>Contributed to various open source project available under the program</h5>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="contact">
-
-        <div class="heading">
-
-            <div class="title">contact</div>
-
-        </div>
-
-        <div class="container">
-
-            <h1>I AM OPEN TO WORK AND NETWORK</h1>
-            <p>If you have an exciting project in mind, want to collaborate, or simply wish to connect, let's
-                initiate a conversation.</p>
-            <div class="mail">
-                <a href="mailto:adityachandel371@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <footer>
-
-        <div class="wrapper">
-
-            <div class="footer-text">
-                <p>© Copyright reserved 2025 Aditya chandel</p>
-            </div>
-
-            <div class="icons icon" id="icon">
-
-                <a target="_blank" href="https://linkedin.com/in/aditya-chandel-223bb3308"
-                    aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
-                <a target="_blank" href="https://github.com/TonyStark-19" aria-label="GitHub profile"><i
-                        class="fa-brands fa-github"></i></a>
-                <a target="_blank" href="https://instagram.com/aaditya_ch124" aria-label="Instagram profile"><i
-                        class="fa-brands fa-instagram"></i></a>
-                <a target="_blank" href="https://twitter.com/iamaditya_3" aria-label="X Profile"><i
-                        class="fa-brands fa-twitter"></i></a>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- custon js link -->
-    <script src="script.js"></script>
-
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="heading"><div class="title">Contact</div></div>
+  <div class="container">
+    <h1>Let's Connect!</h1>
+    <p>If you're looking to collaborate, build something impactful, or just network, feel free to reach out.</p>
+    <div class="mail">
+      <a href="mailto:skasghar8603@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrapper">
+    <div class="footer-text"><p>© Copyright reserved 2025 Shaik Asghar</p></div>
+    <div class="icons icon" id="icon">
+      <a href="https://www.linkedin.com/in/asghar-shaik/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://github.com/myselfasghar" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
 </body>
-
 </html>

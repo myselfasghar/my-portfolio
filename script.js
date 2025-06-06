@@ -58,3 +58,33 @@ sr.reveal('.project-box-wrap', { delay: 50, origin: 'bottom' });
 
 // contact section
 sr.reveal('.container', { delay: 50, origin: 'bottom' });
+const phrases = [
+  "Data Explorer",
+  "Frontend Developer"
+  
+];
+
+let currentPhrase = 0;
+let currentLetter = 0;
+const typewriter = document.querySelector(".typewriter");
+
+function type() {
+  if (currentLetter <= phrases[currentPhrase].length) {
+    typewriter.textContent = phrases[currentPhrase].substring(0, currentLetter++);
+    setTimeout(type, 100);
+  } else {
+    setTimeout(erase, 2000);
+  }
+}
+
+function erase() {
+  if (currentLetter > 0) {
+    typewriter.textContent = phrases[currentPhrase].substring(0, --currentLetter);
+    setTimeout(erase, 50);
+  } else {
+    currentPhrase = (currentPhrase + 1) % phrases.length;
+    setTimeout(type, 200);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", type);
