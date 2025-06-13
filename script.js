@@ -60,7 +60,7 @@ sr.reveal('.project-box-wrap', { delay: 50, origin: 'bottom' });
 sr.reveal('.container', { delay: 50, origin: 'bottom' });
 const phrases = [
   "Data Explorer",
-  "Frontend Developer"
+  "Software Engineer"
   
 ];
 
